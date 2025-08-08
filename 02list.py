@@ -1,4 +1,4 @@
-lst = ["麻花藤", "王剑林林", "⻢马芸", "周鸿医", "向华强"]
+lst = ["麻花藤", "王剑林", "马芸", "周鸿医", "向华强"]
 
 print(lst[0])
 print(lst[0:4])
@@ -7,30 +7,24 @@ print(lst[1:])
 print(lst[::2])
 print(lst[::-1])
 
+
+print(lst.index("周鸿医"))
+print(lst.copy())
+print(lst.count("周鸿医"))
+lst.reverse() #反转列表后返回None，列表已经被反转了
+print(lst)
 lst.append("miss qu")
 lst.insert(4, "missLI")
-print(lst)
-
-lst1 = ["王志⽂文", "张⼀一⼭山", "苦海海⽆无涯"]
+lst1 = ["王志文", "张一山", "苦海无涯"]
 lst.extend(lst1)
-print(lst)
-
 lst.pop()
-print(lst)
-
 lst.pop(3)
-print(lst)
-
 lst.remove(lst[1])
-print(lst)
-
 lst.clear()
-print(lst)
-
-
 
 numls = [1, 2, 3,2321,123123,453224532]
 numls.sort(reverse=True) #降序
 print(numls)
-
 print(len(numls))
+
+
