@@ -14,7 +14,7 @@ c=tu.index(1)
 print(a)
 print(b)
 print(c)
-
+#这就是元组
 
 
 for num in range(10):
