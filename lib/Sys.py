@@ -1,0 +1,17 @@
+import sys
+
+print(sys.path)
+print(sys.flags)
+print(sys.platform)
+print(sys.version)
+print(sys.executable)
+# print(sys.abiflags)
+print(sys.byteorder)
+print(sys.maxsize)
+print(sys.api_version)
+print(sys.copyright)
+print(sys.addaudithook())
+print(sys.getfilesystemencoding())
+print(sys.getdefaultencoding())
+print(sys.exc_info())
+print(sys.exit())
